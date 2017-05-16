@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 799.0, 79.0, 847.0, 639.0 ],
+		"rect" : [ 927.0, 208.0, 847.0, 639.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,92 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 257.083313, 36.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "Effet pedaleWahWah"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 268.083313, 260.5, 45.0, 45.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 354.083313, 166.5, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 260.083313, 204.5, 160.0, 22.0 ],
+					"style" : "",
+					"text" : "effetAudio1_pedaleWhawha"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 39.0, 34.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "égaliseur 5 bandes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 39.0, 220.5, 45.0, 45.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 39.0, 164.5, 146.0, 22.0 ],
+					"style" : "",
+					"text" : "effetAudio2_egaliseur_5b",
+					"varname" : "egaliseur_5b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"disabled" : [ 0, 0, 0, 0, 0, 0, 0 ],
 					"id" : "obj-23",
 					"itemtype" : 0,
@@ -46,10 +132,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 54.0, 18.0, 114.0 ],
+					"patching_rect" : [ 906.0, 73.0, 18.0, 114.0 ],
 					"size" : 7,
 					"style" : "",
-					"value" : 2
+					"value" : 1
 				}
 
 			}
@@ -59,7 +145,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 518.0, 312.0, 45.0, 45.0 ],
+					"patching_rect" : [ 827.0, 331.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -71,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 483.0, 99.0, 24.0, 24.0 ],
+					"patching_rect" : [ 792.0, 118.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -82,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 401.0, 24.0, 150.0, 20.0 ],
+					"patching_rect" : [ 710.0, 43.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "syntheseFM"
 				}
@@ -95,9 +181,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 492.0, 204.0, 76.0, 22.0 ],
+					"patching_rect" : [ 801.0, 223.0, 97.0, 22.0 ],
 					"style" : "",
-					"text" : "syntheseFM"
+					"text" : "syntheseSonore"
 				}
 
 			}
@@ -110,7 +196,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 397.666626, 46.0, 251.0, 359.0 ],
+					"patching_rect" : [ 706.666626, 68.0, 251.0, 359.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -123,7 +209,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 52.0, 130.0, 144.0, 22.0 ],
+					"patching_rect" : [ 260.083313, 76.0, 144.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio fichier3.wav"
 				}
@@ -136,7 +222,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 52.0, 87.0, 257.0, 22.0 ],
+					"patching_rect" : [ 98.0, 405.0, 257.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio AMB_SON_TRAMOUET_02.wav"
 				}
@@ -145,11 +231,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 52.0, 44.0, 304.0, 22.0 ],
+					"patching_rect" : [ 39.0, 68.0, 170.0, 49.0 ],
 					"style" : "",
 					"text" : "lecteurAudio HUM_DONNE_TON_PORTABLE_01.wav"
 				}
@@ -157,6 +244,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
@@ -194,22 +290,92 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "lecteurAudio.maxpat",
-				"bootpath" : "~/Documents/GitKraken/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "syntheseFM.maxpat",
-				"bootpath" : "~/Documents/GitKraken/votreAppli/regieAudio/patchers",
+				"name" : "syntheseSonore.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simpleFM~.maxpat",
-				"bootpath" : "~/Documents/GitKraken/votreAppli/regieAudio/patchers",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetAudio2_egaliseur_5b.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetAudio1_PedaleWhawha.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
