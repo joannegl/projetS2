@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 927.0, 208.0, 847.0, 639.0 ],
+		"rect" : [ 435.0, 197.0, 1197.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 502.0, 328.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "mixageAudio"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 70.0, 410.0, 250.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurAudio AMB_SON_FONTAINE_04.wav"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.083313, 36.0, 150.0, 20.0 ],
+					"patching_rect" : [ 299.083313, 36.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Effet pedaleWahWah"
 				}
@@ -54,7 +80,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.083313, 260.5, 45.0, 45.0 ],
+					"patching_rect" : [ 310.083313, 260.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -67,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 354.083313, 166.5, 24.0, 24.0 ],
+					"patching_rect" : [ 396.083313, 166.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -79,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 260.083313, 204.5, 160.0, 22.0 ],
+					"patching_rect" : [ 302.083313, 204.5, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "effetAudio1_pedaleWhawha"
 				}
@@ -91,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 34.0, 150.0, 20.0 ],
+					"patching_rect" : [ 81.0, 34.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "égaliseur 5 bandes"
 				}
@@ -103,7 +129,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 220.5, 45.0, 45.0 ],
+					"patching_rect" : [ 81.0, 220.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -115,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 39.0, 164.5, 146.0, 22.0 ],
+					"patching_rect" : [ 81.0, 164.5, 146.0, 22.0 ],
 					"style" : "",
 					"text" : "effetAudio2_egaliseur_5b",
 					"varname" : "egaliseur_5b"
@@ -132,7 +158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 906.0, 73.0, 18.0, 114.0 ],
+					"patching_rect" : [ 849.0, 81.0, 18.0, 114.0 ],
 					"size" : 7,
 					"style" : "",
 					"value" : 1
@@ -145,7 +171,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 827.0, 331.0, 45.0, 45.0 ],
+					"patching_rect" : [ 770.0, 339.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -157,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 792.0, 118.0, 24.0, 24.0 ],
+					"patching_rect" : [ 735.0, 126.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -168,7 +194,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 710.0, 43.0, 150.0, 20.0 ],
+					"patching_rect" : [ 653.0, 51.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "syntheseFM"
 				}
@@ -181,7 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 801.0, 223.0, 97.0, 22.0 ],
+					"patching_rect" : [ 744.0, 231.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "syntheseSonore"
 				}
@@ -196,7 +222,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.666626, 68.0, 251.0, 359.0 ],
+					"patching_rect" : [ 649.666626, 76.0, 251.0, 359.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -209,9 +235,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 260.083313, 76.0, 144.0, 22.0 ],
+					"patching_rect" : [ 302.083313, 76.0, 253.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurAudio fichier3.wav"
+					"text" : "lecteurAudio AMB_SON_AMBIANCE_03.wav"
 				}
 
 			}
@@ -222,7 +248,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 98.0, 405.0, 257.0, 22.0 ],
+					"patching_rect" : [ 70.0, 368.0, 257.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio AMB_SON_TRAMOUET_02.wav"
 				}
@@ -236,7 +262,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 39.0, 68.0, 170.0, 49.0 ],
+					"patching_rect" : [ 81.0, 68.0, 170.0, 49.0 ],
 					"style" : "",
 					"text" : "lecteurAudio HUM_DONNE_TON_PORTABLE_01.wav"
 				}
@@ -349,6 +375,11 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-5::obj-6" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
+			"obj-5::obj-1" : [ "live.gain~", "live.gain~", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "lecteurAudio.maxpat",
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
@@ -375,6 +406,12 @@
 			}
 , 			{
 				"name" : "effetAudio1_PedaleWhawha.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mixageAudio.maxpat",
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1

@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717188827,
-	"viewrect" : [ 1192.0, 268.0, 300.0, 500.0 ],
+	"modificationdate" : -717188138,
+	"viewrect" : [ 142.0, 269.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -136,22 +136,12 @@
 ,
 			"AMB_SON_FONTAINE_04.mp3" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Downloads",
-					"projectrelativepath" : "../../../../../Downloads"
-				}
-
+				"local" : 1
 			}
 ,
 			"AMB_SON_AMBIANCE_03.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Downloads",
-					"projectrelativepath" : "../../../../../Downloads"
-				}
-
+				"local" : 1
 			}
 ,
 			"AMB_SON_TRAMOUET_02.wav" : 			{
