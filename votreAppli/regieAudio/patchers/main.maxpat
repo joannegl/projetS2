@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 33.0, 150.0, 1613.0, 812.0 ],
+		"rect" : [ 34.0, 150.0, 1613.0, 812.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 16,
+					"outlettype" : [ "bang", "bang", "int", "int", "bang", "bang", "int", "int", "bang", "bang", "int", "int", "bang", "bang", "int", "int" ],
+					"patching_rect" : [ 660.0, 10.0, 159.0, 22.0 ],
+					"style" : "",
+					"text" : "receptionAudioOSC.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1292.5, 360.5, 24.0, 24.0 ],
+					"patching_rect" : [ 1310.5, 162.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -54,7 +67,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 991.0, 552.0, 141.0, 22.0 ],
+					"patching_rect" : [ 951.0, 563.0, 141.0, 22.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau 7403"
 				}
@@ -66,7 +79,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 651.0, 552.0, 141.0, 22.0 ],
+					"patching_rect" : [ 611.0, 563.0, 141.0, 22.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau 7402"
 				}
@@ -78,7 +91,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.0, 552.0, 141.0, 22.0 ],
+					"patching_rect" : [ 374.0, 563.0, 141.0, 22.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau 7401"
 				}
@@ -90,7 +103,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 546.0, 141.0, 22.0 ],
+					"patching_rect" : [ 110.0, 557.0, 141.0, 22.0 ],
 					"style" : "",
 					"text" : "envoiAudioReseau 7400"
 				}
@@ -103,7 +116,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 991.0, 378.0, 123.0, 22.0 ],
+					"patching_rect" : [ 951.0, 389.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "mixageAudio.maxpat"
 				}
@@ -116,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 651.0, 378.0, 123.0, 22.0 ],
+					"patching_rect" : [ 611.0, 389.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "mixageAudio.maxpat"
 				}
@@ -129,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 400.0, 378.0, 123.0, 22.0 ],
+					"patching_rect" : [ 360.0, 389.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "mixageAudio.maxpat"
 				}
@@ -141,7 +154,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.0, 248.0, 45.0, 45.0 ],
+					"patching_rect" : [ 982.0, 259.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -152,7 +165,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 738.0, 253.5, 45.0, 45.0 ],
+					"patching_rect" : [ 698.0, 264.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -164,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 144.5, 378.0, 123.0, 22.0 ],
+					"patching_rect" : [ 104.5, 389.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "mixageAudio.maxpat"
 				}
@@ -177,7 +190,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 950.0, 182.0, 250.0, 22.0 ],
+					"patching_rect" : [ 908.0, 193.0, 250.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio AMB_SON_FONTAINE_04.wav"
 				}
@@ -189,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.083313, 147.0, 150.0, 20.0 ],
+					"patching_rect" : [ 310.083313, 158.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Effet pedaleWahWah"
 				}
@@ -201,7 +214,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.083313, 366.5, 45.0, 45.0 ],
+					"patching_rect" : [ 284.083313, 377.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -214,7 +227,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.083313, 223.5, 24.0, 24.0 ],
+					"patching_rect" : [ 451.083313, 234.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -226,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 350.083313, 277.5, 160.0, 22.0 ],
+					"patching_rect" : [ 310.083313, 288.5, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "effetAudio1_pedaleWhawha"
 				}
@@ -238,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 147.0, 150.0, 20.0 ],
+					"patching_rect" : [ 81.0, 158.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "égaliseur 5 bandes"
 				}
@@ -250,7 +263,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 366.5, 45.0, 45.0 ],
+					"patching_rect" : [ 29.0, 377.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -262,7 +275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 121.0, 277.5, 146.0, 22.0 ],
+					"patching_rect" : [ 81.0, 288.5, 146.0, 22.0 ],
 					"style" : "",
 					"text" : "effetAudio2_egaliseur_5b",
 					"varname" : "egaliseur_5b"
@@ -279,7 +292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1583.0, 219.0, 18.0, 114.0 ],
+					"patching_rect" : [ 1543.0, 230.0, 18.0, 114.0 ],
 					"size" : 7,
 					"style" : "",
 					"value" : 2
@@ -292,7 +305,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1495.0, 468.5, 45.0, 45.0 ],
+					"patching_rect" : [ 1455.0, 479.5, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -304,7 +317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1460.0, 255.5, 24.0, 24.0 ],
+					"patching_rect" : [ 1420.0, 266.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -315,7 +328,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1378.0, 180.5, 150.0, 20.0 ],
+					"patching_rect" : [ 1338.0, 191.5, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "syntheseFM"
 				}
@@ -328,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1469.0, 360.5, 97.0, 22.0 ],
+					"patching_rect" : [ 1429.0, 371.5, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "syntheseSonore"
 				}
@@ -343,7 +356,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1374.666626, 205.5, 251.0, 359.0 ],
+					"patching_rect" : [ 1334.666626, 216.5, 251.0, 359.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -356,7 +369,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 350.083313, 182.0, 253.0, 22.0 ],
+					"patching_rect" : [ 310.083313, 193.0, 253.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio AMB_SON_AMBIANCE_03.wav"
 				}
@@ -369,7 +382,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 651.0, 182.0, 257.0, 22.0 ],
+					"patching_rect" : [ 611.0, 193.0, 257.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudio AMB_SON_TRAMOUET_02.wav"
 				}
@@ -383,7 +396,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 121.0, 181.0, 170.0, 49.0 ],
+					"patching_rect" : [ 81.0, 192.0, 170.0, 49.0 ],
 					"style" : "",
 					"text" : "lecteurAudio HUM_DONNE_TON_PORTABLE_01.wav"
 				}
@@ -416,6 +429,150 @@
 					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 15 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 11 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 14 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 12 ]
 				}
 
 			}
@@ -748,6 +905,16 @@
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "receptionAudioOSC.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
