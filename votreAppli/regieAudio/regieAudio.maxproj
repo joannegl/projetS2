@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717188138,
+	"modificationdate" : -715812713,
 	"viewrect" : [ 142.0, 269.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,12 +21,32 @@
 				"local" : 1
 			}
 ,
-			"syntheseFM.maxpat" : 			{
+			"syntheseSonore.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"simpleFM~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetAudio2_egaliseur_5b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetAudio1_PedaleWhawha.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseFM.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -56,17 +76,7 @@
 				"local" : 1
 			}
 ,
-			"syntheseSonore.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"mainEffetAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"splitAccord.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -111,17 +121,17 @@
 				"local" : 1
 			}
 ,
-			"effetAudio1_PedaleWhawha.maxpat" : 			{
+			"splitAccord.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"effetAudio2_egaliseur_5b.maxpat" : 			{
+			"moduleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"mixageAudio.maxpat" : 			{
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
