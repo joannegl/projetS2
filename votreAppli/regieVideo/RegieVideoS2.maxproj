@@ -2,8 +2,8 @@
 	"name" : "RegieVideoS2",
 	"version" : 1,
 	"creationdate" : -717266706,
-	"modificationdate" : -715819262,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -715814435,
+	"viewrect" : [ 473.0, 173.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -32,11 +32,6 @@
 				"local" : 1
 			}
 ,
-			"assemblage.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"DetectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -51,10 +46,20 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"mixageVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"FemVoice.aif" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"fdbraderie.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -66,6 +71,11 @@
 			}
 ,
 			"transports.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"fontaine.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
