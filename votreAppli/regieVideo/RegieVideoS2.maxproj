@@ -2,8 +2,8 @@
 	"name" : "RegieVideoS2",
 	"version" : 1,
 	"creationdate" : -717266706,
-	"modificationdate" : -715814435,
-	"viewrect" : [ 473.0, 173.0, 300.0, 500.0 ],
+	"modificationdate" : -715201257,
+	"viewrect" : [ 246.0, 268.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -51,6 +51,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -79,6 +84,10 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
