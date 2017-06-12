@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 39.0, 79.0, 1612.0, 857.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,228 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1412.0, 128.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1306.0, 128.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1145.0, 120.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1035.0, 120.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 924.0, 113.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 814.0, 110.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 1009.0, 22.0, 128.0, 22.0 ],
+					"style" : "",
+					"text" : "receptionOSC.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "FemVoice.aif",
+								"filekind" : "audiofile",
+								"loop" : 1,
+								"content_state" : 								{
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"timestretch" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-31",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 445.75, 107.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "FemVoice.aif",
+								"filekind" : "audiofile",
+								"loop" : 1,
+								"content_state" : 								{
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"timestretch" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-29",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 279.0, 90.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "FemVoice.aif",
+								"filekind" : "audiofile",
+								"selection" : [ 0.0, 0.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"speed" : [ 1.0 ],
+									"mode" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"timestretch" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-27",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 68.0, 80.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 890.0, 407.0, 120.0, 22.0 ],
+					"style" : "",
+					"text" : "mixageVideo.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1342.0, 188.0, 196.0, 22.0 ],
+					"patching_rect" : [ 1326.0, 200.0, 196.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat transports.jpg"
 				}
@@ -68,7 +284,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1348.0, 330.0, 152.0, 22.0 ],
 					"style" : "",
 					"text" : "effetDeplacement3.maxpat"
@@ -81,49 +297,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1034.5, 330.0, 152.0, 22.0 ],
 					"style" : "",
 					"text" : "effetDeplacement2.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "FemVoice.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"originallengthms" : [ 0.0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"pitchshift" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-35",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 409.0, 79.0, 150.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -172,45 +349,6 @@
 			}
 , 			{
 				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "FemVoice.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"originallengthms" : [ 0.0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"pitchshift" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-31",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 235.0, 79.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -254,118 +392,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1449.0, 142.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1348.0, 142.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1135.5, 138.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1034.5, 138.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 988.0, 442.0, 116.0, 22.0 ],
-					"style" : "",
-					"text" : "assemblage.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 752.0, 192.0, 196.0, 22.0 ],
+					"patching_rect" : [ 752.0, 192.0, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurVideo.maxpat fdbraderie.jpg"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "FemVoice.aif",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"mode" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"originallengthms" : [ 0.0 ],
-									"slurtime" : [ 0.0 ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ],
-									"play" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"pitchshift" : [ 1.0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-7",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 60.0, 79.0, 150.0, 30.0 ],
-					"style" : ""
+					"text" : "lecteurVideo.maxpat fontaine.jpg"
 				}
 
 			}
@@ -389,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 804.0, 537.5, 387.0, 285.0 ]
+					"patching_rect" : [ 661.0, 510.5, 590.0, 492.0 ]
 				}
 
 			}
@@ -399,8 +433,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.0, 338.0, 146.0, 22.0 ],
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 771.5, 324.5, 146.0, 22.0 ],
 					"style" : "",
 					"text" : "effetDeplacement.maxpat"
 				}
@@ -432,32 +466,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 87.75, 438.0, 159.0, 116.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 929.0, 119.0, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 752.0, 119.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -495,7 +503,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
@@ -504,28 +512,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -540,34 +548,85 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
@@ -601,15 +660,6 @@
 					"hidden" : 0,
 					"order" : 0,
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -654,7 +704,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 1 ],
+					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
@@ -663,7 +713,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 2 ],
+					"destination" : [ "obj-8", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
@@ -672,7 +722,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
@@ -688,14 +738,41 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-38::obj-13" : [ "flonum[5]", "flonum", 0 ],
 			"obj-34::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-38::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-34::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
 			"obj-1::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-1::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-34::obj-16" : [ "flonum[2]", "flonum[1]", 0 ]
+			"obj-38::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-1::obj-16" : [ "flonum[6]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -711,19 +788,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "FemVoice.aif",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/samples",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "lecteurVideo.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/RegieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "assemblage.maxpat",
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/RegieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -742,6 +807,24 @@
 			}
 , 			{
 				"name" : "effetDeplacement3.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/RegieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mixageVideo.maxpat",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/RegieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FemVoice.aif",
+				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/RegieVideo/media",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "receptionOSC.maxpat",
 				"bootpath" : "~/Documents/GitKraken/projetS2/votreAppli/RegieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -850,8 +933,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
