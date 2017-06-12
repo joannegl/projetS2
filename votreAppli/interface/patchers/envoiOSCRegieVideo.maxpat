@@ -164,7 +164,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.0, 284.0, 160.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 192.168.0.34 7400"
+					"text" : "udpsend 192.168.0.34 7500"
 				}
 
 			}
