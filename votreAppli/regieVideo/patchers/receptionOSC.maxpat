@@ -40,11 +40,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-47",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 460.0, 30.0, 30.0 ],
+					"patching_rect" : [ 1491.0, 473.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 510.0, 398.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1491.0, 411.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -67,9 +67,9 @@
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 324.0, 111.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1491.0, 337.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /lecture"
 				}
@@ -80,9 +80,9 @@
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 259.0, 110.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1491.0, 272.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /video3"
 				}
@@ -93,9 +93,9 @@
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 197.0, 132.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1491.0, 210.0, 132.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieVideo"
 				}
@@ -105,11 +105,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 460.0, 30.0, 30.0 ],
+					"patching_rect" : [ 1342.0, 473.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +122,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 361.0, 398.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1342.0, 411.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -132,9 +132,9 @@
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 324.0, 111.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1342.0, 337.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /lecture"
 				}
@@ -145,9 +145,9 @@
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 259.0, 110.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1342.0, 272.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /video2"
 				}
@@ -158,9 +158,9 @@
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 197.0, 132.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1342.0, 210.0, 132.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieVideo"
 				}
@@ -170,11 +170,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-34",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 460.0, 30.0, 30.0 ],
+					"patching_rect" : [ 1194.0, 473.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -187,7 +187,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 213.0, 398.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1194.0, 411.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -197,9 +197,9 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 324.0, 111.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1194.0, 337.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /lecture"
 				}
@@ -210,9 +210,9 @@
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 259.0, 110.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1194.0, 272.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /video1"
 				}
@@ -223,9 +223,9 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 197.0, 132.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1194.0, 210.0, 132.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /regieVideo"
 				}
@@ -238,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 120.0, 99.0, 22.0 ],
+					"patching_rect" : [ 1194.0, 133.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 7500"
 				}
@@ -383,9 +383,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
