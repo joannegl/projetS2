@@ -2,7 +2,7 @@
 	"name" : "RegieVideoS2",
 	"version" : 1,
 	"creationdate" : -717266706,
-	"modificationdate" : -715201257,
+	"modificationdate" : -715114121,
 	"viewrect" : [ 246.0, 268.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -56,6 +56,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"receptionAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -87,7 +92,11 @@
 
 		}
 ,
-		"other" : 		{
+		"externals" : 		{
+			"OSC-route.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
 
 		}
 
